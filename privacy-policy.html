@@ -191,11 +191,10 @@
   <h2>1. Information We Collect</h2>
   <p>To provide our ERP functionalities, we collect and process information about your business operations, employees, and devices:</p>
   <ul>
-    <li><strong>Account Information:</strong> Account credentials, usernames, employee names, emails, and roles (e.g., administrator, salesman).</li>
+    <li><strong>Account Information:</strong> Account credentials, usernames, employee names, emails, and roles (e.g., Owner, salesman).</li>
     <li><strong>Business & Operational Data:</strong> Customer contact details, sales invoices, pricing, orders, inventory logs, purchase histories, and ledger details.</li>
     <li><strong>Biometric Data (Local Only):</strong> If you enable biometric authentication (fingerprint or face unlock) on the mobile application, the processing is performed entirely by your device's operating system. We do not store or access your biometric credentials on our servers.</li>
-    <li><strong>Location Information:</strong> For field sales tracking, the mobile application may request access to location services. If permitted, we collect location coordinates during salesman check-ins and client visits to verify route compliance.</li>
-    <li><strong>Device & Usage Data:</strong> Device model, operating system version, push notification tokens (e.g., Firebase Cloud Messaging), and app diagnostic logs.</li>
+    <li><strong>Device & Usage Data:</strong> Device model, operating system version, and app diagnostic logs.</li>
   </ul>
 
   <h2>2. How We Use Your Information</h2>
@@ -204,8 +203,6 @@
     <li>To facilitate real-time database synchronization between the mobile app, desktop app, and cloud databases (using Turso / libSQL).</li>
     <li>To generate, manage, and track sales invoices, ledgers, and inventory levels.</li>
     <li>To enable secure salesman login and restrict data visibility based on assigned customers.</li>
-    <li>To send real-time alerts, system updates, and task assignments via push notifications.</li>
-    <li>To verify salesman route visits and customer visit compliance.</li>
     <li>To monitor system performance, troubleshoot bugs, and enforce security policies.</li>
   </ul>
 
@@ -214,13 +211,13 @@
   <ul>
     <li><strong>Local Storage:</strong> A secure SQLite database is stored locally on your mobile and desktop devices, permitting full offline utility.</li>
     <li><strong>Cloud Database Sync:</strong> When an internet connection is available, local changes sync to our secure cloud database instances managed via Turso / libSQL.</li>
-    <li><strong>Backups:</strong> Encrypted database backups are routinely generated and managed by system administrators via the Cloud Dashboard to prevent data loss.</li>
+    <li><strong>Backups:</strong> Encrypted database backups are routinely generated and managed by Owners via the Cloud Dashboard to prevent data loss.</li>
   </ul>
 
   <h2>4. Data Sharing & Disclosure</h2>
   <p>We do not sell, rent, or trade your data to third parties. We share information only in the following limited circumstances:</p>
   <ul>
-    <li><strong>Service Providers:</strong> With hosting and infrastructure providers (like Turso/libSQL for databases and Google Firebase for push notifications) essential to delivering our services.</li>
+    <li><strong>Service Providers:</strong> With hosting and infrastructure providers (like Turso/libSQL for databases) essential to delivering our services.</li>
     <li><strong>Legal Compliance:</strong> If required by law, regulation, or legal process to protect our rights, safety, or property.</li>
   </ul>
 
@@ -233,16 +230,16 @@
   </ul>
 
   <h2>6. Your Rights and Control</h2>
-  <p>Administrators have complete control over their ERP environment. You can access, edit, export, or delete user accounts, salesman records, customer data, and generated backups at any time directly through the dashboard interface or by contacting support.</p>
+  <p>Owners have complete control over their ERP environment. You can access, edit, export, or delete user accounts, salesman records, customer data, and generated backups at any time directly through the dashboard interface or by contacting support.</p>
 
   <h2>7. Contact Us</h2>
   <div class="contact-card">
     <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please reach out to us:</p>
     <p style="margin-top: 12px; font-weight: 600; color: var(--text-color);">
-      Email: <a href="mailto:support@softbots.com" class="footer-link">softbots.contact@gmail.com</a>
+      Email: <a href="mailto:support@softbots.com" class="footer-link">support@softbots.com</a>
     </p>
-     <p style="margin-top: 12px; font-weight: 600; color: var(--text-color);">
-      Whatsapp:  <a href="https://wa.me/923357907337" class="footer-link" target="_blank" rel="noopener noreferrer">+92 335 7907337</a>
+    <p style="margin-top: 8px; font-weight: 600; color: var(--text-color);">
+      WhatsApp: <a href="https://wa.me/923357907337" class="footer-link" target="_blank" rel="noopener noreferrer">+92 335 7907337</a>
     </p>
   </div>
 </div>
